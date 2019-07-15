@@ -64,6 +64,7 @@ Your module should:
 
 ### Bonus points
 
+* Create a custom theme for your site.
 * Style your site to look like the hacker news site.
 
 ### Considerations
