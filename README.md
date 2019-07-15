@@ -18,11 +18,11 @@ This will install Drupal and all its dependencies.
 
 ### Starting the PHP server
 
-`
+```
  cd web
 
  php -S localhost:8000
-`
+```
 
 Visit http://localhost:8000 and install Drupal to begin.
 
