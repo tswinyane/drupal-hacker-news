@@ -62,7 +62,7 @@ Your module should:
 * Create a view that displays the content as per the hacker news site with the associated detail page that includes the item's comments.
 
 
-## Bonus points
+### Bonus points
 
 * Style your site to look like the hacker news site.
 
