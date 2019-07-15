@@ -20,6 +20,7 @@ This will install Drupal and all its dependencies.
 
 `
  cd web
+
  php -S localhost:8000
 `
 
