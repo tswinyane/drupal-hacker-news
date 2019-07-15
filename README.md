@@ -4,47 +4,26 @@
 This project template provides a starter kit for managing your site
 dependencies with [Composer](https://getcomposer.org/).
 
-## Usage
+## Getting started
 
-First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
+You will need (Git)[https://git-scm.com/] as well as you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
-> Note: The instructions below refer to the [global composer installation](https://getcomposer.org/doc/00-intro.md#globally).
-You might need to replace `composer` with `php composer.phar` (or similar)
-for your setup.
+Fork the respository
 
-After that you can create the project:
+Then clone the forked repository
 
-```
-composer create-project drupal-composer/drupal-project:8.x-dev some-dir --no-interaction
-```
+Inside the directory on the forked repository, run `composer install`
 
-With `composer require ...` you can download new dependencies to your
-installation.
+This will install Drupal and all its dependencies.
 
-```
-cd some-dir
-composer require drupal/devel:~1.0
-```
+### Starting the PHP server
 
-The `composer create-project` command passes ownership of all files to the
-project that is created. You should create a new git repository, and commit
-all files not excluded by the .gitignore file.
+`
+ cd web
+ php -S localhost:8000
+`
 
-## What does the template do?
-
-When installing the given `composer.json` some tasks are taken care of:
-
-* Drupal will be installed in the `web`-directory.
-* Autoloader is implemented to use the generated composer autoloader in `vendor/autoload.php`,
-  instead of the one provided by Drupal (`web/vendor/autoload.php`).
-* Modules (packages of type `drupal-module`) will be placed in `web/modules/contrib/`
-* Theme (packages of type `drupal-theme`) will be placed in `web/themes/contrib/`
-* Profiles (packages of type `drupal-profile`) will be placed in `web/profiles/contrib/`
-* Creates default writable versions of `settings.php` and `services.yml`.
-* Creates `web/sites/default/files`-directory.
-* Latest version of drush is installed locally for use at `vendor/bin/drush`.
-* Latest version of DrupalConsole is installed locally for use at `vendor/bin/drupal`.
-* Creates environment variables based on your .env file. See [.env.example](.env.example).
+Visit http://localhost:8000 and install Drupal to begin.
 
 ## The assessment
 
