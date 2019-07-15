@@ -55,6 +55,7 @@ Write a custom module that periodically fetches the latest news items from the h
 The documentation for the API can be found her: https://github.com/HackerNews/API
 
 Your module should:
+
 * Fetch the news items periodically
 * Create and attach the news item to the appropriate taxonomy e.g. story, comment, ask, poll etc
 * You should also fetch all the comments associated to the news item and add them as a comment to your content type.
