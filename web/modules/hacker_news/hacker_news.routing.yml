@@ -1,0 +1,6 @@
+hacker_news:
+  path: /hacker/news
+  defaults:
+        _controller: Drupal\hacker_news\Controller\HackerNewsController::getNews
+  requirements:
+        _permission: 'access_content'

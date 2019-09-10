@@ -52,3 +52,11 @@ Your module should:
 * Initially, your module should only fetch the top 500 and build from there, there is no need to go much further than that.
 * Use of Drupal's entity API is strongly encouraged.
 * You can submit your Database via Dropbox, wetransfer or any other online storage provider you prefer, simply add the link to the file to the end of the readme of your forked repo.
+
+
+---- Alfred Additions--------
+Link to the database 
+https://www.dropbox.com/s/yebo8kwl78vnvzh/drupal_hack.sql?dl=0
+
+
+
