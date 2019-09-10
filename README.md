@@ -60,6 +60,7 @@ Your module should:
 - To manually run the module goto localhost:<port-number>/news/hack(This will import 500 items and some related taxonomy)
 - Uses time_table cron module to fetch after every 5 minutes
 - site login details: admin:letmein
+
 Link to the database 
 https://www.dropbox.com/s/yebo8kwl78vnvzh/drupal_hack.sql?dl=0
 
